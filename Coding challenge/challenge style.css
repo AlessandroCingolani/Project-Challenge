@@ -1,0 +1,85 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* casella nera trasparente con margini */
+.contenitore{
+    background-color: rgba(0, 0, 0, 0.491);
+    width: 63%;
+    border-radius: 2%;
+    margin: auto;
+}
+
+/*secondo contenitore  */
+.cont2{
+    padding: 100px;
+    margin: auto;
+}
+
+/* posizione centrale titolo  */
+.center{
+    text-align: center;
+    color: rgb(40, 205, 40);
+    font-weight: 600;
+}
+
+/* titolo verde vicino al logo */
+header>h2{
+    margin: auto;
+}
+
+/* blocco verde nav */
+.green{
+    text-align: center;
+    background-color: rgb(18, 233, 18);
+    height: 30px;
+}
+
+/* centra bottoni */
+nav>button{  
+    font-size: 55%;
+    margin-top: 8px;
+}
+
+/* spazio tra lista monopattini */
+main>div{
+    padding-top: 20px;
+}
+
+/* inserisce freccia prima della via */
+.via:before{
+  content: "\21A6";
+}
+
+/* avvicinare togliendo il margine dell h */
+main>div>h6{
+    margin:0;
+}
+
+/* batterie */
+.low-battery,.med-battery,.high-battery{
+    height: 12px;
+    border-radius: 3px;
+    margin:0;
+}
+
+/* livello medio batteria */
+.med-battery{
+    background-color: rgb(186, 157, 8);
+    width: 200px;
+}
+
+/* livello alto batteria */
+.high-battery{
+    background-color: rgb(8, 186, 44);
+    width: 300px;
+}
+
+/* livello basso di batteria */
+.low-battery{
+    background-color: rgb(186, 26, 8);
+    width: 100px;
+}
